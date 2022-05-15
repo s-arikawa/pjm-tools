@@ -1,7 +1,7 @@
 <template>
   <div>
     <MHeader />
-    <div class="container mx-auto px-10">
+    <div class="container mx-auto p-5">
       <NuxtPage/>
     </div>
   </div>
