@@ -9,6 +9,9 @@
       <li>
         <NuxtLink to="task" class="link">Task View</NuxtLink>
       </li>
+      <li>
+        <NuxtLink to="/planning/product_backlog" class="link">Product Backlog</NuxtLink>
+      </li>
     </ul>
   </div>
 </template>
