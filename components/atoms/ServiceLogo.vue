@@ -1,11 +1,9 @@
 <script lang="ts" setup></script>
 <template>
   <div>
-    <p>ロゴ画像</p>
+    <NuxtLink to="/">
+      <p>ロゴ画像</p>
+    </NuxtLink>
   </div>
 </template>
-
-
-<style scoped>
-
-</style>
+<style scoped></style>
