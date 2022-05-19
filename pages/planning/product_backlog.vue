@@ -25,18 +25,18 @@ const sp = ref(1)
 </script>
 <template>
   <div>
-    <InputForm label="ID">
-      <InputText v-model="id"/>
-    </InputForm>
+    <div class="flex items-center gap-3">
+      <InputForm label="ID">
+        <InputText v-model="id"/>
+      </InputForm>
 
-    <InputForm label="Title">
-      <InputText v-model="title"/>
-    </InputForm>
+      <InputForm label="Title">
+        <InputText v-model="title"/>
+      </InputForm>
 
-    <InputForm label="SP">
-      <InputNumber v-model="sp"/>
-    </InputForm>
-    <div>
+      <InputForm label="Story Point">
+        <InputNumber v-model="sp"/>
+      </InputForm>
       <button type="button" @click="addTask">Enter</button>
     </div>
 

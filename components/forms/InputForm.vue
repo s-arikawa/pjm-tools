@@ -4,10 +4,10 @@ const props = defineProps({label: String})
 <template>
   <label>
     <slot name="label">
-      <span class="text-gray-700">{{ `${label}:` }}</span>
+      <span class="text-gray-700">{{ label }}</span>
     </slot>
     <slot>
-      <MInputText />
+      <MInputText/>
     </slot>
   </label>
 </template>
