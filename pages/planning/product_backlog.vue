@@ -1,7 +1,5 @@
 <script lang="ts" setup>
 import {computed, ref} from "#imports";
-import MTable from "~/components/MTable.vue";
-import MInputText from "~/components/forms/MInputText.vue";
 
 const backlog = ref([
   {id: "#1", title: "画面 A の設計", sp: 8},
