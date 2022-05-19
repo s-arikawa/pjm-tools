@@ -25,26 +25,19 @@ const sp = ref(1)
 </script>
 <template>
   <div>
-    <div class="flex items-center gap-3">
-      <label class="block">
-        <span class="text-gray-700">ID:</span>
-        <MInputText v-model="id"/>
-      </label>
+    <InputForm label="ID">
+      <InputText v-model="id"/>
+    </InputForm>
 
-      <label>
-        <span>Title:</span>
-        <MInputText v-model="title"/>
-      </label>
+    <InputForm label="Title">
+      <InputText v-model="title"/>
+    </InputForm>
 
-      <div>
-        <label>
-          <span>SP:</span>
-          <MInputNumber v-model="sp"/>
-        </label>
-      </div>
-      <div>
-        <button type="button" @click="addTask">Enter</button>
-      </div>
+    <InputForm label="SP">
+      <InputNumber v-model="sp"/>
+    </InputForm>
+    <div>
+      <button type="button" @click="addTask">Enter</button>
     </div>
 
     <MTable class="w-full" :columns="tableColumns" :values="backlog">
