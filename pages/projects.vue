@@ -1,5 +1,5 @@
 <script lang="ts" setup></script>
 <template>
-  <h2>projects</h2>
+  <PageTitle title="プロジェクト"/>
 </template>
 <style scoped></style>

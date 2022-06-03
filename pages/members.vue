@@ -1,5 +1,5 @@
 <script lang="ts" setup></script>
 <template>
-  <h2>members</h2>
+  <PageTitle title="メンバー"/>
 </template>
 <style scoped></style>

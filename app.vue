@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="h-screen">
     <MHeader />
-    <div class="container mx-auto p-5">
+    <div class="mx-10 my-8 h-5/6 border border-pink-200">
       <NuxtPage/>
     </div>
   </div>

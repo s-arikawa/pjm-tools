@@ -1,5 +1,5 @@
 <script lang="ts" setup></script>
 <template>
-  <h2>calendar</h2>
+  <PageTitle title="カレンダー"/>
 </template>
 <style scoped></style>
