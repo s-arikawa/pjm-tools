@@ -7,7 +7,7 @@ const props = defineProps({label: String})
       <span class="text-gray-700">{{ label }}</span>
     </slot>
     <slot>
-      <MInputText/>
+      <InputText/>
     </slot>
   </label>
 </template>
