@@ -14,7 +14,7 @@ const onSearch = () => emits('search')
 </script>
 <template>
   <div class="relative">
-    <InputText :value="modelValue" @input="onInputString" :placeholder="placeholder"/>
+    <InputText :value="modelValue" @input="onInputString" :placeholder="placeholder" @keydown.enter="onSearch"/>
     <span class="absolute inset-y-0 right-0 flex items-center pr-2">
       <button type="submit" class="p-1" @click="onSearch">
         <SearchIcon class="w-6 text-gray"/>
