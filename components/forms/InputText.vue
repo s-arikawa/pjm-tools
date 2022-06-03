@@ -9,8 +9,8 @@ const onInputString = (e: Event) => {
 
 <template>
   <input type="text" :value="modelValue" @input="onInputString"
-         class="mt-1 block w-full rounded-md border-gray-300 shadow-sm
-        focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
+         class="form-input w-full rounded-md border-gray-300 shadow-sm
+         focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50">
 </template>
 
 <style scoped></style>

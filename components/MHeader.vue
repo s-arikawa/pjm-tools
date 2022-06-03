@@ -3,9 +3,9 @@ import {CogIcon, UserCircleIcon} from '@heroicons/vue/solid'
 import {ref} from "#imports";
 
 const menuItems = ref([
-  {title: "プロジェクト", to: 'projects', active: true},
-  {title: "メンバー", to: 'members', active: false},
-  {title: "カレンダー", to: 'calendar', active: false},
+  {title: "プロジェクト", to: '/projects', active: true},
+  {title: "メンバー", to: '/members', active: false},
+  {title: "カレンダー", to: '/calendar', active: false},
 ])
 const onClickMenuTab = (title: String) => {
   menuItems.value.forEach((it) => it.active = it.title === title)
