@@ -2,7 +2,6 @@
 const props = defineProps({
   title: {
     type: String,
-    require: true
   },
   active: {
     type: Boolean,
@@ -14,9 +13,11 @@ const props = defineProps({
 <template>
   <div class="flex flex-col hover:bg-gray-200">
     <div class="flex place-content-center">
-      <p class="title text-base font-bold">{{ title }}</p>
+      <slot>
+        <p class="title text-base font-bold">{{ title }}</p>
+      </slot>
     </div>
-    <div v-if="active" class="border-2 border-black rounded-t-sm" />
+    <div v-if="active" class="border-2 border-black rounded-t-sm"/>
   </div>
 </template>
 
